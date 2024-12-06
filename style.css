@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: "Abel";
+    color: #FBFFFE;
+
+}
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+button{
+    background:#6D676E;
+    margin: 10px 0px;
+    color:#FBFFFE;
+    border: none;
+    font-weight: bold;
+}
+  
