@@ -1,13 +1,26 @@
-let inputBtn = document.getElementById("input-btn")
-let boxEl = document.getElementById("box")
+const inputBtn = document.getElementById("input-btn")
+const inputEl = document.getElementById("input-el")
+const ulEL = document.getElementById("ul-el")
+let myLeads = ["www.google.com"]
 
 inputBtn.addEventListener("click", function(){
-    console.log("click clack bang pow ding bash");
-    
+    myLeads.push(inputEl.value)
+    renderLeads()
+    inputEl.value = ""
 })
+renderLeads()
 
+function renderLeads(){ 
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems += `
+            <li>
+                <a target='_blank' href='${myLeads[i]}'>
+                    ${myLeads[i]}
+                </a>
+            </li>
+    `
 
-boxEl.addEventListener("click", function(){
-    console.log("aint no way ");
-    
-})
+    }
+    ulEL.innerHTML = listItems
+}

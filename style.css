@@ -1,9 +1,11 @@
+
 body{
     margin: 0;
     padding: 10px;
     font-family: "Abel";
     color: #FBFFFE;
-
+    background-color: #6d676e;
+    min-width: 400px;
 }
 .abel-regular {
     font-family: "Abel", sans-serif;
@@ -16,10 +18,21 @@ input{
     padding: 10px;
 }
 button{
-    background:#6D676E;
+    background:#1B1B1E;
     margin: 10px 0px;
     color:#FBFFFE;
     border: none;
     font-weight: bold;
 }
-  
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    margin-top: 5px;
+}
+li a{
+    color: #FBFFFE;
+    text-decoration: none;
+}
