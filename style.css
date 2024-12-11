@@ -6,6 +6,9 @@ body{
     color: #FBFFFE;
     background-color: #6d676e;
     min-width: 400px;
+    text-align: left;
+    align-items: center;
+    border-radius: 10px;
 }
 .abel-regular {
     font-family: "Abel", sans-serif;
@@ -16,6 +19,9 @@ input{
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #FBFFFE;
 }
 button{
     background:#1B1B1E;
@@ -35,4 +41,21 @@ li{
 li a{
     color: #FBFFFE;
     text-decoration: none;
+}
+#delete-btn{
+    background: #96031A;
+}
+.body-btns{
+    width: 32%;
+    margin: 10px auto;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.body-btns:hover{
+    height: 40px;
+    color: #FAA916;
+}
+li a:hover{
+    color: #FAA916;
 }
